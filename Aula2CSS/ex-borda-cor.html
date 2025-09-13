@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <!-- Link para o arquivo CSS externo -->
       <link rel="stylesheet" href="estilos.css">
+      <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
       <title>Exemplo borda-cor</title>
 </head>
 
@@ -16,6 +17,41 @@
       <p class="solid">Borda sólida.</p>
       <p class="double">Borda dupla.</p>
       <p class="mix">Bordas mistas.</p>
+      <br>
+    <h4>Código CSS utilizado:</h4>
+    <pre><code class="language-css">
+.dotted {
+    border-style: dotted;
+    border-width: 10px;
+    border-color: red;
+}
+
+.dashed {
+    border-style: dashed;
+    border-width: thin
+}
+
+.solid {
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 100px;
+    border-color: red green blue yellow;
+}
+
+.double {
+    border-style: double;
+    border-width: medium;
+    border-color: hsl(145, 89%, 26%);
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+    border-color: #c2247e;
+}
+</code></pre>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-css.min.js"></script>
 </body>
 
 </html>

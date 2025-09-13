@@ -57,7 +57,7 @@ li {
 }
 
 span {
-    background-color: yellow;
+    background-color: rgb(255, 255, 250);
     margin-bottom: inherit;
 }
 
@@ -78,7 +78,7 @@ p {
 
 .solid {
     border-style: solid;
-    border-width: 50px;
+    border-width: 30px;
     border-radius: 100px;
     border-color: red green blue yellow;
 }
